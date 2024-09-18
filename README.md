@@ -77,4 +77,24 @@ th:with 를 사용하면 지역 변수를 선언해서 사용할 수 있다.
 
 ## 기본 객체들
 
+# /24-09-18
+
+## 유틸리티 객체와 날짜
+타임리프는 문자, 숫자, 날짜, URI등을 편리하게 다루는 다양한 유틸리티 객체들을 제공한다.
+
+### 타임리프 유틸리티 객체들
+- #message : 메시지, 국제화 처리
+- #uris : URI 이스케이프 지원
+- #dates : java.util.Date 서식 지원
+- #calendars : java.util.Calendar 서식 지원
+- #temporals : 자바8 날짜 서식 지원
+- #numbers : 숫자 서식 지원
+- #strings : 문자 관련 편의 기능
+- #objects : 객체 관련 기능 제공
+- #bools : boolean 관련 기능 제공
+- #arrays : 배열 관련 기능 제공
+- #lists, #sets, #maps : 컬렉션 관련 기능 제공
+- #ids : 아이디 저리 관련 기능 제공
+
+
 
