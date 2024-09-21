@@ -119,5 +119,9 @@ ex) <span th:text="hello world!"></span>
 문자리터럴은 원칙상 ' 로 감싸야 한다 중간에 공백이 있어 하나의 의미있는 토큰으로 인식하지 않는다 
 따라서 <span th:text="'hello world!'"></span> 이렇게 수정해 주어야 한다.
 
+# /24-09-21
+
+## 연산
+
 
 
