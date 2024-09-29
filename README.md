@@ -225,3 +225,12 @@ HTML 파일을 웹 브라우저에서 그대로 열어보면 HTML 주석이기 �
 - common_header(~{::title},~{::link}) 이 부분이 핵심이다.
 - ::title 은 현재 페이지의 title 태그들을 전달한다.
 - ::link 는 현재 페이지의 link 태그들을 전달한다.
+
+# /24-09-29
+
+## 템플릿 레이아웃2
+앞서 이야기한 내용을 <head> 뿐만 아니라 <html>전체에 적용할 수 있다.
+layoutFile.html 을 보면 기본 레이아웃을 가지고 있는데, <html> 에 th:fragment 속성이 정의되어 있다. 
+이 레이아웃 파일을 기본으로 하고 여기에 필요한 내용을 전달해서 부분부분 변경하는 것으로 이해하면 된다.
+layoutExtendMain.html 는 현재 페이지인데, <html> 자체를 th:replace 를 사용해서 변경하는 것을 확인 할 수 있다. 
+결국 layoutFile.html 에 필요한 내용을 전달하면서 <html> 자체를 layoutFile.html 로 변경 한다.
